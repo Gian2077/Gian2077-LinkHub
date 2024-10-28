@@ -1,0 +1,142 @@
+@import url(reset.css);
+@import url(theme.css);
+*
+{
+    transition: 0.7s;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: var(--primary-bg-color);
+}
+/* Containers */
+/* Body Container */
+.body__container
+{
+    height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Header Container */
+.header__container
+{
+    height: 7vh;
+    width: 100vw;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-bg-color);
+    border-bottom: 3px solid var(--primary-border-color);
+}
+/* Header Divs */
+.header__container div
+{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto
+}
+/* Empty Div */
+.header__empty-space
+{
+    padding-left: 0.75rem;
+    justify-content: flex-start;
+}
+/* Logo Div */
+.header__logo
+{
+    justify-content: center;
+}
+/* Logo */
+.logo
+{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+/* Theme Menu Div */
+.header__menu--theme
+{
+    padding-right: 0.75rem;
+    justify-content: flex-end;
+}
+/* Toggle Theme Button */
+.btn
+{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.btn:hover
+{
+    color: var(--secondary-color);
+    transition: 0.3s ease-in-out;
+}
+/* Main Container */
+.main__container
+{
+    padding: 12vh 0 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Profile Picture */
+.profile-picture
+{
+    height: 11rem;
+    width: 11rem;
+    border: 3px solid var(--primary-border-color);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+/* Profile Info */
+h1
+{
+    margin-bottom: 0.5rem;
+}
+h2
+{
+    margin-bottom: 1rem;
+}
+/* Social Media Menu*/
+/* Links */
+.menu__link
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3rem;
+    padding: 0.625rem 7rem;
+    margin: 0.3rem;
+    border: 1px solid transparent;
+    border-radius: 0.1rem;
+    background-color: var(--secondary-bg-color);
+}
+.menu__link:hover .social-media__logo,
+.menu__link:hover .social-media__name
+{
+    color: #F0F0F0;
+    transition: 0.3s ease-in-out;
+}
+/* Footer Container */
+.footer__container
+{
+    height: 10vh;
+    width: 100vw;
+    max-width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}

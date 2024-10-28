@@ -1,0 +1,28 @@
+/* Dark Theme */
+:root, :root[data-theme="dark"]
+{
+    --primary-color: #F0F0F0;
+    --secondary-color: #FFF;
+    --primary-bg-color: #0F0F0F;
+    --secondary-bg-color: #282828;
+    --primary-border-color: #333;
+    --secondary-border-color: #575757;
+    --title-color: #F0F0F0;
+    --text-color: #9A9A9A;
+    --link-color: #9A9A9A;
+    --icon-color: #C7C7C7;
+}
+:root[data-theme="light"]
+{
+/* Light Theme */
+    --primary-color: #0F0F0F;
+    --secondary-color: #AAA;
+    --primary-bg-color: #F0F0F0;
+    --secondary-bg-color: #C7C7C7;
+    --primary-border-color: #C7C7C7;
+    --secondary-border-color: #9A9A9A;
+    --title-color: #0F0F0F;
+    --text-color: #282828;
+    --link-color: #282828;
+    --icon-color: #575757;
+}
